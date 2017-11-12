@@ -1,0 +1,97 @@
+html{
+	font-size: 15px;
+}
+
+body{
+
+	background-color: rgb(209,204,201 );
+}
+
+.bienvenido{
+
+}
+
+
+.fascinate{
+	font-family: 'Fascinate Inline', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+
+}
+
+.bg-dark {
+  background-color: rgba(50,50,60, 0.75) !important;
+}
+
+li.centrado{
+
+	text-align: center;
+	transition: background-color 0.8s ease-in-out 0.2s;	
+}
+
+li.centrado:hover{
+ 	background-color: rgba(40,40,40,0.2)!important;
+}
+
+
+li>a{
+
+	transition: color 0.8s ease-in-out 0.2s;	
+}
+
+li>a:hover{
+
+	color: yellow 	!important;
+}
+
+
+.texto{
+	padding: 5rem;
+	postion: absolute; /* fixed | absolute;*/
+	background: url(../imgs/adanEve.png);
+	background-size: contain; /*background-size: auto|length|cover|contain|initial|inherit;*/
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: local; /* background-attachment: scroll|fixed|local|initial|inherit;*/
+	height: 40rem; /*100=100% del tamaño*/
+	opacity : 0.8;
+    max-height: 20rem;
+}
+
+.txtHtml {
+	z-index: 1;
+}
+
+
+.txtHtml:before{
+
+	max-height: 20rem;
+	background: url(../imgs/businessman.png);
+	background-size: contain; /*background-size: auto|length|cover|contain|initial|inherit;*/
+	background-repeat: repeat;/*no-repeat;*/
+	background-position: center center;
+	opacity : 0.5;
+	z-index: -1;
+}
+
+
+article figure img {
+	max-width: 60%;
+}
+
+
+
+/*Estilo txtCSS*/
+
+.txtCss{
+		
+}
+
+.txtCss2{
+	margin: 20px auto;
+	background-color: #937373;
+	border: 1px solid black;
+	min-height: 200px;
+	
+	
+
+}
